@@ -11,12 +11,5 @@ export class ExtendedValidationPipe extends ValidationPipe {
   )
 }
 function Injectable(options) {
-  return (target) => {
-    Reflect.defineMetadata('', true, target)
-    Reflect.defineMetadata(
-      'constants_1.SCOPE_OPTIONS_METADATA',
-      options,
-      target,
-    )
-  }
+  return (target) => {}
 }

@@ -1,1 +1,3 @@
-export { ExtendedValidationPipe } from './pipe'
+import { ExtendedValidationPipe } from './pipe'
+
+console.log(ExtendedValidationPipe.shared)
